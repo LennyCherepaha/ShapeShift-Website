@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,900;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,900;1,300&display=swap");
 /* General Styles */
 
 html {
@@ -11,7 +11,7 @@ html {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
-  font-family: 'roboto', sans-serif;
+  font-family: "roboto", sans-serif;
 }
 
 a {
@@ -66,7 +66,7 @@ li {
 }
 
 .nav-links a::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -166,8 +166,11 @@ header {
 }
 
 .show-case-area {
+  margin-top: 2rem;
   display: flex;
   padding: 25px;
+  border-top: 2.5px solid red;
+  border-bottom: 2.5px solid red;
 }
 
 .show-case-area .coloumn {
@@ -196,6 +199,30 @@ header {
   text-align: center;
   margin-bottom: 10px;
   font-weight: 500;
+  font-size: 1rem;
 }
 
 /* End of Showcase Area */
+
+/* Quote Area */
+
+.quote-section {
+  padding: 6.5rem;
+  background-color: #d9d9d9;
+}
+
+.quote-section .container {
+  width: 80%;
+}
+
+.quote-section h2 {
+  font-weight: 300;
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.quote-section p {
+  text-align: end;
+}
+
+/* End of Quote Area */
